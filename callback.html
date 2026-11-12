@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tesla — autorizzazione completata</title>
+</head>
+<body>
+  <p>Autorizzazione Tesla ricevuta. Puoi tornare alla chat con Pinta; non chiudere questa pagina finché non ti conferma di averla letta.</p>
+  <p id="status"></p>
+  <script>
+    document.getElementById("status").textContent = location.search ? "Codice presente nell'indirizzo." : "In attesa del reindirizzamento.";
+  </script>
+</body>
+</html>
